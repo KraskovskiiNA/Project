@@ -13,8 +13,9 @@
       <div class="header__right">
         <div class="cart-menu">
           <router-link :to="{name: 'cart', params: {cart_data: CART}}">
+            <p class="cart_length">{{ CART.length }}</p>
             <img class="header__cart" :src="require('../assets/img/cart.svg')" alt="cart" />
-            <p>{{ CART.length }}</p>
+
           </router-link>
         </div>
         <details>

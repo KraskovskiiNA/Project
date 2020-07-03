@@ -10,7 +10,6 @@
           <td>unite Price</td>
           <td>Quantity</td>
           <td>shipping</td>
-          <td>Subtotal</td>
           <td>ACTION</td>
         </tr>
 
@@ -19,7 +18,9 @@
           :key="item.id"
           :cart_item="item"
           @deleteItem="deleteItem(index)"
-          />
+          @increment="increment(index)"
+          @decrease="decrease(index)"
+        />
       </table>
       <div class="table-button">
         <input type="button" value="CLEAR SHOPPING CART" class="table-button-b" />
@@ -49,7 +50,7 @@
           <p class="total-sub">Sub total &nbsp;${{ cartTotal }}</p>
           <p class="shipping-head">
             GRAND TOTAL &nbsp;
-            <span class="total-color">$900</span>
+            <span class="total-color">${{ cartTotal }}</span>
           </p>
           <input class="total-button" type="button" value="proceed to checkout" />
         </form>
@@ -84,16 +85,25 @@ export default {
   computed: {
     cartTotal() {
       let result = [];
-      for (const item of this.cart_product) {
-        result.push(item.price * item.quantity);
+      if (this.cart_data.length) {
+        for (const item of this.cart_data) {
+          result.push(item.price * item.quantity);
+        }
+        result = result.reduce((sum, elem) => sum + elem);
+        return result;
       }
-
-      result = result.reduce((sum, elem) => sum + elem);
-      return result;
+      return 0;
     },
+
   },
   methods: {
-    ...mapActions(['deleteFromCart']),
+    ...mapActions(['deleteFromCart', 'incrementCart', 'decreaseCart']),
+    increment(index) {
+      this.incrementCart(index);
+    },
+    decrease(index) {
+      this.decreaseCart(index);
+    },
     deleteItem(index) {
       this.deleteFromCart(index);
     },
@@ -113,5 +123,6 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+
 </style>

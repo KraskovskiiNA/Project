@@ -2069,6 +2069,10 @@ label input[type="checkbox"]:checked + .word {
   border: 1px solid #eaeaea;
   margin: 20px 0px;
 }
+.cart_length {
+  padding: 0 17px;
+  color: #f16d7f;
+}
 
 .check-label {
   font-size: 12px;

@@ -29,6 +29,14 @@ export default new Vuex.Store({
         state.cart.push(product);
       }
     },
+    incr: (state, index) => {
+      state.cart[index].quantity += 1;
+    },
+    decr: (state, index) => {
+      if (state.cart[index].quantity > 1) {
+        state.cart[index].quantity -= 1;
+      }
+    },
     deleteProduct: (state, index) => {
       state.cart.splice(index, 1);
     },
@@ -51,6 +59,12 @@ export default new Vuex.Store({
     },
     addCart({ commit }, product) {
       commit('setCart', product);
+    },
+    incrementCart({ commit }, index) {
+      commit('incr', index);
+    },
+    decreaseCart({ commit }, index) {
+      commit('decr', index);
     },
     deleteFromCart({ commit }, index) {
       commit('deleteProduct', index);

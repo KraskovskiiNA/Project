@@ -3,7 +3,7 @@
     <td class="tab-img">
       <div class="tab-img-photo">
         <a href="#">
-          <img :src="require('../assets/img/' + cart_item.img)" alt="img" />
+          <img class="cart_item_img" :src="require('../assets/img/' + cart_item.img)" alt="img" />
         </a>
       </div>
       <div class="tab-img-content">
@@ -17,9 +17,9 @@
       </div>
     </td>
     <td>${{ cart_item.price }}</td>
-    <td>{{ cart_item.quantity }}</td>
+    <td><span class="btn_quantity" @click="decrease">-  &nbsp;</span>{{ cart_item.quantity }}
+    <span class="btn_quantity" @click="increment">&nbsp;  +</span></td>
     <td>FREE</td>
-    <td>$300</td>
     <td>
       <a href="#" class="cross" @click="deleteItem">
         <i class="fas fa-times-circle"></i>
@@ -43,6 +43,12 @@ export default {
     deleteItem() {
       this.$emit('deleteItem');
     },
+    increment() {
+      this.$emit('increment');
+    },
+    decrease() {
+      this.$emit('decrease');
+    },
   },
   data() {
     return {};
@@ -53,5 +59,11 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+  .btn_quantity {
+    cursor: pointer;
+  }
+  .cart_item_img {
+    width: 70px;
+  }
 </style>
