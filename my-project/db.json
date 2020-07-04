@@ -1,0 +1,108 @@
+{
+  "catalog":[
+    {
+        "id": "100",
+        "img": "Layer_43.jpg",
+        "name": "Mango People T-shirt 1",
+        "price": "50"
+    },
+    {
+        "id": "101",
+        "img": "Layer_44.jpg",
+        "name": "Mango People T-shirt",
+        "price": "60"
+    },
+    {
+        "id": "102",
+        "img": "Layer_4.jpg",
+        "name": "Mango People T-shirt",
+        "price": "40"
+    },
+    {
+        "id": "103",
+        "img": "1937.png",
+        "name": "Mango People T-shirt",
+        "price": "20"
+    },
+    {
+        "id": "104",
+        "img": "Layer_46.jpg",
+        "name": "Mango People T-shirt",
+        "price": "80"
+    },
+    {
+        "id": "105",
+        "img": "1997.png",
+        "name": "Mango People T-shirt",
+        "price": "52"
+    },
+    {
+        "id": "106",
+        "img": "Layer_48.jpg",
+        "name": "Mango People T-shirt",
+        "price": "63"
+    },
+    {
+        "id": "107",
+        "img": "Layer_49.jpg",
+        "name": "Mango People T-shirt",
+        "price": "26"
+    },
+    {
+        "id": "108",
+        "img": "2087.png",
+        "name": "Mango People T-shirt",
+        "price": "33"
+    }
+],
+  "catalogHome": [
+    {
+      "id": "200",
+      "img": "Layer_2.jpg",
+      "name": "Mango People T-shirt 2",
+      "price": "52"
+  },
+  {
+      "id": "201",
+      "img": "Layer_3.jpg",
+      "name": "Mango People T-shirt",
+      "price": "66"
+  },
+  {
+      "id": "202",
+      "img": "Layer_4.jpg",
+      "name": "Mango People T-shirt",
+      "price": "15"
+  },
+  {
+      "id": "203",
+      "img": "Layer_5.jpg",
+      "name": "Mango People T-shirt",
+      "price": "72"
+  },
+  {
+      "id": "204",
+      "img": "Layer_6.jpg",
+      "name": "Mango People T-shirt",
+      "price": "23"
+  },
+  {
+      "id": "205",
+      "img": "Layer_7.jpg",
+      "name": "Mango People T-shirt",
+      "price": "56"
+  },
+  {
+      "id": "107",
+      "img": "Layer_8.jpg",
+      "name": "Mango People T-shirt",
+      "price": "40"
+  },
+  {
+      "id": "108",
+      "img": "Layer_9.jpg",
+      "name": "Mango People T-shirt",
+      "price": "30"
+  }
+  ]
+}
