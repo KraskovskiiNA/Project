@@ -3,32 +3,32 @@
     {
         "id": "100",
         "img": "Layer_43.jpg",
-        "name": "Mango People T-shirt",
-        "price": "52"
+        "name": "Mango People T-shirt 1",
+        "price": "50"
     },
     {
         "id": "101",
         "img": "Layer_44.jpg",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "60"
     },
     {
         "id": "102",
         "img": "Layer_4.jpg",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "40"
     },
     {
         "id": "103",
         "img": "1937.png",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "20"
     },
     {
         "id": "104",
         "img": "Layer_46.jpg",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "80"
     },
     {
         "id": "105",
@@ -40,95 +40,69 @@
         "id": "106",
         "img": "Layer_48.jpg",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "63"
     },
     {
         "id": "107",
         "img": "Layer_49.jpg",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "26"
     },
     {
         "id": "108",
         "img": "2087.png",
         "name": "Mango People T-shirt",
-        "price": "52"
+        "price": "33"
     }
 ],
   "catalogHome": [
     {
       "id": "200",
       "img": "Layer_2.jpg",
-      "name": "Mango People T-shirt",
+      "name": "Mango People T-shirt 2",
       "price": "52"
   },
   {
       "id": "201",
       "img": "Layer_3.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "66"
   },
   {
       "id": "202",
       "img": "Layer_4.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "15"
   },
   {
       "id": "203",
       "img": "Layer_5.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "72"
   },
   {
       "id": "204",
       "img": "Layer_6.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "23"
   },
   {
       "id": "205",
       "img": "Layer_7.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "56"
   },
   {
       "id": "107",
       "img": "Layer_8.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "40"
   },
   {
       "id": "108",
       "img": "Layer_9.jpg",
       "name": "Mango People T-shirt",
-      "price": "52"
+      "price": "30"
   }
-  ],
-  "catalogSingle": [
-  {
-    "id": "300",
-    "img": "2781.png",
-    "name": "BLAZE LEGGINGS",
-    "price": "52"
-  },
-  {
-    "id": "301",
-    "img": "2782.png",
-    "name": "ALEXA SWEATER",
-    "price": "52"
-  },
-  {
-    "id": "302",
-    "img": "2783.png",
-    "name": "AGNES TOP",
-    "price": "52"
-  },
-  {
-    "id": "303",
-    "img": "2784.png",
-    "name": "SYLVA SWEATER",
-    "price": "52"
-  }
-]
+  ]
 }

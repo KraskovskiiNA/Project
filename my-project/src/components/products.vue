@@ -36,6 +36,7 @@ export default {
       this.$emit('addToCart', this.product_data);
     },
   },
+
 };
 </script>
 

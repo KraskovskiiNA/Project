@@ -8,6 +8,7 @@ export default new Vuex.Store({
   state: {
     products: [],
     cart: [],
+    searchStr: '',
   },
   mutations: {
     putProducts: (state, products) => {

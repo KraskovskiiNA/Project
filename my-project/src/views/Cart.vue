@@ -23,7 +23,8 @@
         />
       </table>
       <div class="table-button">
-        <input type="button" value="CLEAR SHOPPING CART" class="table-button-b" />
+        <input type="button" value="CLEAR SHOPPING CART" class="table-button-b"
+         @click="deleteItem"/>
         <input type="button" value="CONTINUE sHOPPING" class="table-button-b" />
       </div>
       <section class="shipping">

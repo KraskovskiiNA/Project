@@ -247,6 +247,11 @@ export default {
     vSubscribe,
     vArr,
   },
+  data() {
+    return {
+      sortedProduct: [],
+    };
+  },
   methods: {
     ...mapActions(['getProducts', 'addCart']),
     addToCart(data) {
