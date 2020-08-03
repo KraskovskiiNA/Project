@@ -38,8 +38,5 @@ export default {
     ...mapGetters(['CART']),
   },
   methods: {},
-  mounted() {
-    console.log('jnvnnvtnjvntvnjt');
-  },
 };
 </script>
